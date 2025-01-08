@@ -6,14 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "b": "npx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "@cloudflare/next-on-pages": "^1.13.7",
     "hls.js": "^1.5.18",
     "next": "15.1.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "vercel": "^39.2.6"
   },
   "devDependencies": {
     "@types/node": "^20",
